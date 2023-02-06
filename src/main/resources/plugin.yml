@@ -1,0 +1,12 @@
+name: CrafterePreview
+version: '${version}'
+main: com.gmail.necnionch.myplugin.crafterepreview.bukkit.CrafterePreviewPlugin
+api-version: 1.13
+depend: [ CrafterePost, WorldEdit ]
+authors: [ Necnion8 ]
+description: "CrafterePostの録画ファイルを再生するプラグイン"
+
+commands:
+  crafterepostpreview:
+    description: "MCSR録画ファイルを再生し、プレイヤーに表示します"
+    aliases: [ crapospreview ]
